@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 
 struct Mahasiswa {
@@ -60,7 +59,8 @@ int main() {
     int pilihan;
 
     do {
-        printf("\nMenu:\n");
+        printf("\n==== Selamat Datang di Data Mahasiswa ====\n");
+        printf("======== Apa yang kamu perlukan? ==========\n");
         printf("1. Tambah Data Mahasiswa\n");
         printf("2. Tampilkan Data Mahasiswa\n");
         printf("3. Keluar\n");
